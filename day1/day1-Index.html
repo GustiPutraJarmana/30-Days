@@ -64,7 +64,7 @@ function playSound(e) {
     const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
     if (!audio) return;
     audio.currentTime = 0;
-    //audio.play();
+    //audio.play();// it will be raedy when audio folder ready
     key.classList.add('playing');
 }
 function removeTransition(e) {
